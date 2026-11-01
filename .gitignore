@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+*/node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production Build Folders
+dist/
+client/dist/
+build/
+client/build/
+.cache/
+
+# Environment Configuration Files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+*.env
+server/.env
+server/.env.*
+client/.env
+client/.env.*
+
+# Allow .env.example files
+!.env.example
+!server/.env.example
+!client/.env.example
+
+# Logs and Debug Output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploads & User Generated Files
+uploads/
+server/uploads/
+client/uploads/
+temp/
+tmp/
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+
+# Operating System & Editor Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
